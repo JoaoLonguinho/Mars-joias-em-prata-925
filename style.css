@@ -20,21 +20,41 @@ body{
     width: 90%;
 }
 .header-logo{
-    width: 10vw;
+    width: 5vw;
     min-width: 100px;
 }
 .header-logo:hover{
     cursor: pointer;
 }
 .menu{
-    min-width:650px;
-    width: 55vw;
+    width: 60vw;
     display: block;
     margin: auto;
 }
+.menu a{
+    text-decoration: none;
+    color: #26435E;
+}
 .menu li{
     display: inline;
-    padding: 30px;
+    padding: 4.5vh 3vw;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
+}
+
+.menu li:hover , .menu li a:hover{
+    cursor: pointer;
+    background-color: #26435E;
+    color: white !important;
+    text-decoration: none;
+}
+
+
+.line-under-header{
+    width: 80vw; 
+    margin: auto;
+}
+.header-container:hover + .line-under-header{
+    width: 100vw;
+    transition: 0.5s ease-in;
 }

@@ -1,0 +1,40 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #FAFAFA;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.header-container{
+    display: flex;
+    align-items: center; /*alinha verticalmente*/
+}
+.left-space-header-container{
+    width: 10%;
+    min-width: 100px;
+}
+.right-space-header-container{
+    width: 90%;
+}
+.header-logo{
+    width: 10vw;
+    min-width: 100px;
+}
+.header-logo:hover{
+    cursor: pointer;
+}
+.menu{
+    min-width:650px;
+    width: 55vw;
+    display: block;
+    margin: auto;
+}
+.menu li{
+    display: inline;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2vw;
+}

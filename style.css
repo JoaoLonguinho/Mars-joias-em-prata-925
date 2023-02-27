@@ -66,10 +66,10 @@ body{
     text-align: center;
 }
 .main-banner{
-    background-image: url("assets/img/produto-01.jpg");
+    background-image: url("assets/img/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-attachment: fixed;
     height: 50vh;
     position: relative;
@@ -82,7 +82,7 @@ body{
     transform: translate(-50%,-50%);
     font-family: 'Dancing Script', cursive;
     font-size: 4vw;
-    color: #26435E;
+    color: white;
     text-shadow: 2px 2px rgba(255, 255, 255, 0.342) ;
     font-weight: 800;
 }

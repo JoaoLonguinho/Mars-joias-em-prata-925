@@ -1,11 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
     background-color: #FAFAFA;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 .header-container{
@@ -57,4 +58,52 @@ body{
 .header-container:hover + .line-under-header{
     width: 100vw;
     transition: 0.5s ease-in;
+}
+.main-container{
+    min-width: 500px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.main-banner{
+    background-image: url("assets/img/produto-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+
+}
+.main-banner .main-tittle{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    color: #26435E;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.342) ;
+    font-weight: 800;
+}
+.btn-banner-home{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    color: white;
+    
+    font-weight: 800;
+    background-color: #26256B;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 16px;
+    
+}
+.main-container-text{
+    width: 80vw;
+    margin: auto;
+    margin-top: 80px;
 }
